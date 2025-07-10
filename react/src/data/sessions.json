@@ -1,154 +1,608 @@
 {
     "sessions": [
-      {
-        "id": "session-1",
-        "startTime": "2025-06-30T07:51:41.904000",
-        "endTime": "2025-06-30T07:51:41.904000",
-        "score": 8,
-        "video": "../public/QM_Video.mov",
-        "analysis": {"analysis_results": [
-          {
-            "recommendations": [
-              "Implement a toast notification or visual feedback upon successful form submission."
+        {
+            "id": "session-1",
+            "startTime": "2025-06-30T07:51:41.904000",
+            "endTime": "2025-06-30T07:51:41.904000",
+            "score": 8,
+            "category": "iPhone 16 Pro",
+            "video": "../public/QM_Video.mov",
+            "analysis": {
+                "analysis_results": [
+                    {
+                        "recommendations": [
+                            "Implement a toast notification or visual feedback upon successful form submission."
+                        ]
+                    }
+                ]
+            },
+            "qmUrl": "https://att.quantummetric.com/#/replay/4503615461975912?globalFilter=fe804a38a9761cff&teamID=b85c5d62-591d-48b1-be9e-bc2ab9710f61&ts=1747720800-1748066399&sessionTs=1748000546",
+            "user_journey": [
+                {
+                    "description": "API Call https://www.att.com/msapi/ixp-rules-engine-nodems/v1/allocations?appVersion=2025.4.1&user_recognized=false&app=myatt-mobile-app&deviceVersion=15&deviceType=android",
+                    "time": 1
+                },
+                {
+                    "description": "A-MApp-Shape SDK Init Success TRUE",
+                    "time": 1
+                },
+                {
+                    "description": "A-MApp-HALO SDK Init Client ID m21258",
+                    "time": 1
+                },
+                {
+                    "description": "API Call https://oidc.idp.clogin.att.com/mga/sps/oauth/oauth20/jwks/Consumer_Native_Public_Definition",
+                    "time": 1
+                },
+                {
+                    "description": "API Call https://dpm.demdex.net/id?d_mid=12474030148387030262362550372230601938&d_ver=2&d_orgid=55633F7A534535110A490D44@AdobeOrg",
+                    "time": 2
+                },
+                {
+                    "description": "API Call https://www.att.com/msapi/myatt-native-experience/v2/feed/page?skeletonId=home-unauth-skeleton",
+                    "time": 2
+                },
+                {
+                    "description": "API Call https://www.att.com/msapi/myatt-native-experience/v1/configuration/myattNativeMobile",
+                    "time": 2
+                },
+                {
+                    "description": "API Call https://www.att.com/msapi/myatt-native-experience/v2/idpcms/services/myatt/support/feedback",
+                    "time": 2
+                },
+                {
+                    "description": "API Call https://www.att.com/msapi/idp-content-orchestration/v1/scms/services/myatt/loginanimationpage",
+                    "time": 3
+                },
+                {
+                    "description": "API Call https://signin-static-mjs.att.com/android/native-app/update?ver=1.1&apv=MjAyNS40LjE%3D&kid=A7-nqvyWAQAARhHR7KZUhVmUax2i35jL2FbHhXaLdNz7JtTCLZtdM-zTb0WLARd3OaAAAAAAAAAAAAAAAAAAAA%3D%3D&api=35&enc=1&sdk=470&rid=90C147756CD45B471746418454064&aid=Y29tLmF0dC5teVdpcmVsZXNz&hwn=samsung%20SM-S918U&platform=android&cid=android_config",
+                    "time": 3
+                },
+                {
+                    "description": "Accessibility Font Size Font Scale: 0.9",
+                    "time": 3
+                },
+                {
+                    "description": "Native Network Status WIFI",
+                    "time": 3
+                },
+                {
+                    "description": "App Version 2025.4.1",
+                    "time": 3
+                },
+                {
+                    "description": "API Call https://www.att.com/ssaf/ssafc/v1/controllerdata",
+                    "time": 4
+                },
+                {
+                    "description": "Tap Event ReactViewGroup",
+                    "time": 4
+                },
+                {
+                    "description": "Tap Event test:id/myatt_sign_in_btn_new_welcome_page_id",
+                    "time": 4
+                },
+                {
+                    "description": "API Call https://www.att.com/ssaf/ssafc/v1/controllerdata",
+                    "time": 5
+                },
+                {
+                    "description": "API Call https://www.att.com/ssaf/ssafc/v1/controllerdata",
+                    "time": 5
+                },
+                {
+                    "description": "API Call https://chclm.att.com/IAMAPI/V1/UserServiceInfo",
+                    "time": 5
+                },
+                {
+                    "description": "Tap Event saveduser_id_holder",
+                    "time": 5
+                },
+                {
+                    "description": "API Call https://oidc.idp.clogin.att.com/mga/sps/oauth/oauth20/token",
+                    "time": 5
+                },
+                {
+                    "description": "API Call https://chclm.att.com/hclm/v1/CommonSaveClientLog",
+                    "time": 5
+                },
+                {
+                    "description": "API Call https://chclm.att.com/IAMAPI/V1/UserServiceInfo",
+                    "time": 6
+                },
+                {
+                    "description": "Native MyATT Login Status HaloC Normal Login Success",
+                    "time": 6
+                },
+                {
+                    "description": "A-MApp-Login-HALO Interactive Login Duration 5.297",
+                    "time": 6
+                },
+                {
+                    "description": "API Call https://www.att.com/ssaf/ssafc/v1/controllerdata",
+                    "time": 6
+                },
+                {
+                    "description": "Android - Authenticated User SUCCESS",
+                    "time": 6
+                },
+                {
+                    "description": "Android - Authenticated ID G7vYmN6WDofOpDmFG2GGp1kgMrT0joCYKwRXI2prWQFwN7JQxFpsws6F7Jgq/cSW",
+                    "time": 6
+                },
+                {
+                    "description": "API Call https://oidc.idp.clogin.att.com/cAMAPI/ldapmkdevice/v1/updateDeviceInfo",
+                    "time": 6
+                },
+                {
+                    "description": "API Call https://www.att.com/msapi/login/unauth/service/v1/haloc/access_token",
+                    "time": 6
+                },
+                {
+                    "description": "Native MyATT Login Status IDP Token Retrieval Success",
+                    "time": 6
+                },
+                {
+                    "description": "API Call https://www.att.com/msapi/myatt-native-experience/v2/account/userAccountsInfo",
+                    "time": 6
+                },
+                {
+                    "description": "A-MApp-UserAccountsInfo-Type & Status wireless-A",
+                    "time": 6
+                },
+                {
+                    "description": "API Call https://www.att.com/ssaf/ssafc/v1/controllerdata",
+                    "time": 7
+                },
+                {
+                    "description": "API Call https://www.att.com/msapi/myatt-native-experience/v1/feed/prefetch",
+                    "time": 7
+                },
+                {
+                    "description": "API Call https://www.att.com/msapi/myatt-native-experience/v2/feed/page?skeletonId=home-skeleton",
+                    "time": 7
+                },
+                {
+                    "description": "A-Mapp-Login-Client Login Duration 1.342",
+                    "time": 7
+                },
+                {
+                    "description": "API Call https://www.att.com/msapi/myatt-native-experience/v1/feed/cards?pageName=home&cardNames=welcomeCenterCard&masonly=true",
+                    "time": 8
+                },
+                {
+                    "description": "API Call https://www.att.com/msapi/myatt-native-experience/v1/feed/cards?pageName=home&cardNames=billAndPaymentCard&masonly=true",
+                    "time": 8
+                },
+                {
+                    "description": "App Sub-Page s",
+                    "time": 8
+                },
+                {
+                    "description": "API Call https://www.att.com/msapi/myatt-native-experience/v1/idpcms/services/myatt/payment/getPaymentAutopayStatus",
+                    "time": 8
+                },
+                {
+                    "description": "A-MApp-API-Welcome Card Friendly Name grads_gg_2025_sls",
+                    "time": 8
+                },
+                {
+                    "description": "Tap Event test:id/myatt_681e0bcc9557d652bebaf602_welcomecentercard_dismissbutton",
+                    "time": 8
+                },
+                {
+                    "description": "API Call https://firebaselogging-pa.googleapis.com/v1/firelog/legacy/batchlog",
+                    "time": 9
+                },
+                {
+                    "description": "Tap Event ReactViewGroup",
+                    "time": 18
+                },
+                {
+                    "description": "API Call https://www.att.com/ssaf/ssafc/v1/controllerdata",
+                    "time": 19
+                },
+                {
+                    "description": "Tap Event ReactViewGroup",
+                    "time": 39
+                },
+                {
+                    "description": "API Call https://www.att.com/ssaf/ssafc/v1/controllerdata",
+                    "time": 40
+                },
+                {
+                    "description": "API Call https://www.att.com/msapi/myatt-native-experience/v2/feed/page?skeletonId=services-skeleton",
+                    "time": 40
+                },
+                {
+                    "description": "Tap Event ReactViewGroup",
+                    "time": 40
+                },
+                {
+                    "description": "API Call https://www.att.com/ssaf/ssafc/v1/controllerdata",
+                    "time": 41
+                },
+                {
+                    "description": "API Call https://www.att.com/msapi/myatt-native-experience/v2/feed/page?skeletonId=devices-cellular-skeleton",
+                    "time": 41
+                },
+                {
+                    "description": "Tap Event test:id/myatt_container_cellular_devices_id",
+                    "time": 42
+                },
+                {
+                    "description": "API Call https://www.att.com/ssaf/ssafc/v1/controllerdata",
+                    "time": 42
+                },
+                {
+                    "description": "API Call https://www.att.com/msapi/webacctmgmt/v1/init",
+                    "time": 42
+                },
+                {
+                    "description": "API Call https://www.att.com/msapi/myatt-native-experience/v1/feed/page?skeletonId=wirelessDeviceDetailsPage&pageName=wirelessDeviceDetailsPage",
+                    "time": 43
+                },
+                {
+                    "description": "API Call https://www.att.com/msapi/myatt-native-experience/v2/feed/cards?pageName=wirelessDeviceDetailsPage&accountNumber=436133427033&lineNumber=775.762.2597&cardNames=WARRANTY_CARD&masonly=true",
+                    "time": 45
+                },
+                {
+                    "description": "API Call https://www.att.com/msapi/myatt-native-experience/v2/feed/cards?pageName=wirelessDeviceDetailsPage&accountNumber=436133427033&lineNumber=775.762.2597&cardNames=OPTIONS_AND_SETTINGS_CARD&masonly=true",
+                    "time": 46
+                },
+                {
+                    "description": "Tap Event Check claim status",
+                    "time": 51
+                },
+                {
+                    "description": "Web Callback undefined-undefined",
+                    "time": 52
+                },
+                {
+                    "description": "Back Button Used",
+                    "time": 53
+                },
+                {
+                    "description": "Tap Event Upgrade protection plan",
+                    "time": 53
+                },
+                {
+                    "description": "Back Button Used",
+                    "time": 54
+                },
+                {
+                    "description": "Tap Event Check upgrade eligibility",
+                    "time": 116
+                },
+                {
+                    "description": "Tap Event ReactViewGroup",
+                    "time": 117
+                },
+                {
+                    "description": "Rage Scroll",
+                    "time": 131
+                },
+                {
+                    "description": "Tap Event Done",
+                    "time": 132
+                },
+                {
+                    "description": "App Suspend",
+                    "time": 132
+                },
+                {
+                    "description": "Tap Event See upgrade options",
+                    "time": 118
+                },
+                {
+                    "description": "ANF - Flow Code DSUP",
+                    "time": 118
+                },
+                {
+                    "description": "ANF - Virtual Page URL /buy/postpaid/upgradeoptions/modal",
+                    "time": 118
+                },
+                {
+                    "description": "Modal Displayed How do you want to upgrade your device?",
+                    "time": 119
+                },
+                {
+                    "description": "Tap Event Start upgrade",
+                    "time": 120
+                },
+                {
+                    "description": "Page Content Loaded https://www.att.com/buy/postpaid/phones/",
+                    "time": 121
+                },
+                {
+                    "description": "A-WLS-AL/U-Pick New Device View",
+                    "time": 121
+                },
+                {
+                    "description": "Tap Event Price with trade-in",
+                    "time": 133
+                },
+                {
+                    "description": "Tap Event Galaxy S25 Ultra",
+                    "time": 133
+                },
+                {
+                    "description": "A-WLS-ALL-Pick New Device Click Galaxy S25 Ultra",
+                    "time": 133
+                },
+                {
+                    "description": "Product Details Page - View samsung galaxy s25 ultra",
+                    "time": 134
+                },
+                {
+                    "description": "Page Content Loaded https://www.att.com/buy/postpaid/phones/samsung-galaxy-s25-ultra.html",
+                    "time": 134
+                },
+                {
+                    "description": "Tap Event IMG[150x643]",
+                    "time": 139
+                },
+                {
+                    "description": "Tap Event IMG[206x640]",
+                    "time": 140
+                },
+                {
+                    "description": "Tap Event IMG[288x654]",
+                    "time": 141
+                },
+                {
+                    "description": "Tap Event IMG[343x647]",
+                    "time": 142
+                },
+                {
+                    "description": "Tap Event Save when you buy any eligible Samsung Galaxy smartphone on installment and unlimited plan. No trade",
+                    "time": 175
+                },
+                {
+                    "description": "Possible Frustration Save when you buy any eligible Samsung Galaxy smartphone on installment and unlimited plan. No trade",
+                    "time": 176
+                },
+                {
+                    "description": "Rage Click URL https://www.att.com/buy/postpaid/phones/samsung-galaxy-s25-ultra.html",
+                    "time": 177
+                },
+                {
+                    "description": "Rage Click Save when you buy any eligible Samsung Galaxy smartphone on installment and unlimited plan. No trade",
+                    "time": 177
+                },
+                {
+                    "description": "Tap Event INPUT[jsx-2202735406]",
+                    "time": 232
+                },
+                {
+                    "description": "Product Details Page - View samsung galaxy s25 ultra 256gb titanium gray",
+                    "time": 232
+                },
+                {
+                    "description": "Tap Event BUTTON[uws-modal__close]",
+                    "time": 184
+                },
+                {
+                    "description": "Tap Event See how trade-in works",
+                    "time": 185
+                },
+                {
+                    "description": "Modal Displayed How to get trade-in credits",
+                    "time": 185
+                },
+                {
+                    "description": "Tap Event No, thanks",
+                    "time": 186
+                },
+                {
+                    "description": "Tap Event Upgrade",
+                    "time": 196
+                },
+                {
+                    "description": "A-WLS-AL/U-Continue Add to Cart CTA Click",
+                    "time": 196
+                },
+                {
+                    "description": "Page Content Loaded https://www.att.com/buy/postpaid/phones/config/samsung-galaxy-s25-ultra-256gb-titanium-gray.html",
+                    "time": 218
+                },
+                {
+                    "description": "A-WLS-AL/U-Addons Config View",
+                    "time": 218
+                },
+                {
+                    "description": "Tap Event Go to cart",
+                    "time": 224
+                },
+                {
+                    "description": "A-WLS-AL/U-Config View Go to Cart Click",
+                    "time": 224
+                },
+                {
+                    "description": "Page Content Loaded https://www.att.com/buy/postpaid/additionaloffers",
+                    "time": 225
+                },
+                {
+                    "description": "A-WLS-U-Upsell Offer Page View",
+                    "time": 225
+                },
+                {
+                    "description": "Tap Event Skip and continue",
+                    "time": 226
+                },
+                {
+                    "description": "Page Content Loaded https://www.att.com/buy/shoppingcart/",
+                    "time": 253
+                },
+                {
+                    "description": "A-Sales-Cart-Product Name Galaxy S25 Ultra",
+                    "time": 253
+                },
+                {
+                    "description": "Tap Event Got a promo code?",
+                    "time": 263
+                },
+                {
+                    "description": "Page Content Loaded https://www.att.com/buy/checkout/checkoutview",
+                    "time": 264
+                },
+                {
+                    "description": "Checkout Visited",
+                    "time": 264
+                },
+                {
+                    "description": "Tap Event A[Link__link-cta]",
+                    "time": 268
+                },
+                {
+                    "description": "ANF - Virtual Page URL /buy/checkout/storelist/modal",
+                    "time": 268
+                },
+                {
+                    "description": "Checkout - Find Store Modal Displayed",
+                    "time": 268
+                },
+                {
+                    "description": "Uncaught Exception URL https://www.att.com/buy/checkout/deliveryinfo",
+                    "time": 270
+                },
+                {
+                    "description": "Uncaught Exception Script error.",
+                    "time": 270
+                },
+                {
+                    "description": "API 500 Error https://www.att.com/idpcms/sales/prod/buy/common-ui.cmsfeed.js",
+                    "time": 270
+                },
+                {
+                    "description": "Tap Event Pick up at this store",
+                    "time": 281
+                },
+                {
+                    "description": "Tap Event Update delivery info",
+                    "time": 281
+                },
+                {
+                    "description": "A-Sales-Checkout-Add Delivery Info Click In-store pickup",
+                    "time": 281
+                },
+                {
+                    "description": "ANF - Virtual Page URL /buy/checkout/payment",
+                    "time": 282
+                },
+                {
+                    "description": "A-Sales-PurchaseOrder-Payment Page Hit",
+                    "time": 293
+                }
             ]
-          }
-        ]},
-        "qmUrl":"https://att.quantummetric.com/#/replay/4503615461975912?globalFilter=fe804a38a9761cff&teamID=b85c5d62-591d-48b1-be9e-bc2ab9710f61&ts=1747720800-1748066399&sessionTs=1748000546",
-        "user_journey": [
-    { "description": "API Call https://www.att.com/msapi/ixp-rules-engine-nodems/v1/allocations?appVersion=2025.4.1&user_recognized=false&app=myatt-mobile-app&deviceVersion=15&deviceType=android", "time": 1 },
-    { "description": "A-MApp-Shape SDK Init Success TRUE", "time": 1 },
-    { "description": "A-MApp-HALO SDK Init Client ID m21258", "time": 1 },
-    { "description": "API Call https://oidc.idp.clogin.att.com/mga/sps/oauth/oauth20/jwks/Consumer_Native_Public_Definition", "time": 1 },
-    { "description": "API Call https://dpm.demdex.net/id?d_mid=12474030148387030262362550372230601938&d_ver=2&d_orgid=55633F7A534535110A490D44@AdobeOrg", "time": 2 },
-    { "description": "API Call https://www.att.com/msapi/myatt-native-experience/v2/feed/page?skeletonId=home-unauth-skeleton", "time": 2 },
-    { "description": "API Call https://www.att.com/msapi/myatt-native-experience/v1/configuration/myattNativeMobile", "time": 2 },
-    { "description": "API Call https://www.att.com/msapi/myatt-native-experience/v2/idpcms/services/myatt/support/feedback", "time": 2 },
-    { "description": "API Call https://www.att.com/msapi/idp-content-orchestration/v1/scms/services/myatt/loginanimationpage", "time": 3 },
-    { "description": "API Call https://signin-static-mjs.att.com/android/native-app/update?ver=1.1&apv=MjAyNS40LjE%3D&kid=A7-nqvyWAQAARhHR7KZUhVmUax2i35jL2FbHhXaLdNz7JtTCLZtdM-zTb0WLARd3OaAAAAAAAAAAAAAAAAAAAA%3D%3D&api=35&enc=1&sdk=470&rid=90C147756CD45B471746418454064&aid=Y29tLmF0dC5teVdpcmVsZXNz&hwn=samsung%20SM-S918U&platform=android&cid=android_config", "time": 3 },
-    { "description": "Accessibility Font Size Font Scale: 0.9", "time": 3 },
-    { "description": "Native Network Status WIFI", "time": 3 },
-    { "description": "App Version 2025.4.1", "time": 3 },
-    { "description": "API Call https://www.att.com/ssaf/ssafc/v1/controllerdata", "time": 4 },
-    { "description": "Tap Event ReactViewGroup", "time": 4 },
-    { "description": "Tap Event test:id/myatt_sign_in_btn_new_welcome_page_id", "time": 4 },
-    { "description": "API Call https://www.att.com/ssaf/ssafc/v1/controllerdata", "time": 5 },
-    { "description": "API Call https://www.att.com/ssaf/ssafc/v1/controllerdata", "time": 5 },
-    { "description": "API Call https://chclm.att.com/IAMAPI/V1/UserServiceInfo", "time": 5 },
-    { "description": "Tap Event saveduser_id_holder", "time": 5 },
-    { "description": "API Call https://oidc.idp.clogin.att.com/mga/sps/oauth/oauth20/token", "time": 5 },
-    { "description": "API Call https://chclm.att.com/hclm/v1/CommonSaveClientLog", "time": 5 },
-    { "description": "API Call https://chclm.att.com/IAMAPI/V1/UserServiceInfo", "time": 6 },
-    { "description": "Native MyATT Login Status HaloC Normal Login Success", "time": 6 },
-    { "description": "A-MApp-Login-HALO Interactive Login Duration 5.297", "time": 6 },
-    { "description": "API Call https://www.att.com/ssaf/ssafc/v1/controllerdata", "time": 6 },
-    { "description": "Android - Authenticated User SUCCESS", "time": 6 },
-    { "description": "Android - Authenticated ID G7vYmN6WDofOpDmFG2GGp1kgMrT0joCYKwRXI2prWQFwN7JQxFpsws6F7Jgq/cSW", "time": 6 },
-    { "description": "API Call https://oidc.idp.clogin.att.com/cAMAPI/ldapmkdevice/v1/updateDeviceInfo", "time": 6 },
-    { "description": "API Call https://www.att.com/msapi/login/unauth/service/v1/haloc/access_token", "time": 6 },
-    { "description": "Native MyATT Login Status IDP Token Retrieval Success", "time": 6 },
-    { "description": "API Call https://www.att.com/msapi/myatt-native-experience/v2/account/userAccountsInfo", "time": 6 },
-    { "description": "A-MApp-UserAccountsInfo-Type & Status wireless-A", "time": 6 },
-    { "description": "API Call https://www.att.com/ssaf/ssafc/v1/controllerdata", "time": 7 },
-    { "description": "API Call https://www.att.com/msapi/myatt-native-experience/v1/feed/prefetch", "time": 7 },
-    { "description": "API Call https://www.att.com/msapi/myatt-native-experience/v2/feed/page?skeletonId=home-skeleton", "time": 7 },
-    { "description": "A-Mapp-Login-Client Login Duration 1.342", "time": 7 },
-    { "description": "API Call https://www.att.com/msapi/myatt-native-experience/v1/feed/cards?pageName=home&cardNames=welcomeCenterCard&masonly=true", "time": 8 },
-    { "description": "API Call https://www.att.com/msapi/myatt-native-experience/v1/feed/cards?pageName=home&cardNames=billAndPaymentCard&masonly=true", "time": 8 },
-    { "description": "App Sub-Page s", "time": 8 },
-    { "description": "API Call https://www.att.com/msapi/myatt-native-experience/v1/idpcms/services/myatt/payment/getPaymentAutopayStatus", "time": 8 },
-    { "description": "A-MApp-API-Welcome Card Friendly Name grads_gg_2025_sls", "time": 8 },
-    { "description": "Tap Event test:id/myatt_681e0bcc9557d652bebaf602_welcomecentercard_dismissbutton", "time": 8 },
-    { "description": "API Call https://firebaselogging-pa.googleapis.com/v1/firelog/legacy/batchlog", "time": 9 },
-    { "description": "Tap Event ReactViewGroup", "time": 18 },
-    { "description": "API Call https://www.att.com/ssaf/ssafc/v1/controllerdata", "time": 19 },
-    { "description": "Tap Event ReactViewGroup", "time": 39 },
-    { "description": "API Call https://www.att.com/ssaf/ssafc/v1/controllerdata", "time": 40 },
-    { "description": "API Call https://www.att.com/msapi/myatt-native-experience/v2/feed/page?skeletonId=services-skeleton", "time": 40 },
-    { "description": "Tap Event ReactViewGroup", "time": 40 },
-    { "description": "API Call https://www.att.com/ssaf/ssafc/v1/controllerdata", "time": 41 },
-    { "description": "API Call https://www.att.com/msapi/myatt-native-experience/v2/feed/page?skeletonId=devices-cellular-skeleton", "time": 41 },
-    { "description": "Tap Event test:id/myatt_container_cellular_devices_id", "time": 42 },
-    { "description": "API Call https://www.att.com/ssaf/ssafc/v1/controllerdata", "time": 42 },
-    { "description": "API Call https://www.att.com/msapi/webacctmgmt/v1/init", "time": 42 },
-    { "description": "API Call https://www.att.com/msapi/myatt-native-experience/v1/feed/page?skeletonId=wirelessDeviceDetailsPage&pageName=wirelessDeviceDetailsPage", "time": 43 },
-    { "description": "API Call https://www.att.com/msapi/myatt-native-experience/v2/feed/cards?pageName=wirelessDeviceDetailsPage&accountNumber=436133427033&lineNumber=775.762.2597&cardNames=WARRANTY_CARD&masonly=true", "time": 45 },
-    { "description": "API Call https://www.att.com/msapi/myatt-native-experience/v2/feed/cards?pageName=wirelessDeviceDetailsPage&accountNumber=436133427033&lineNumber=775.762.2597&cardNames=OPTIONS_AND_SETTINGS_CARD&masonly=true", "time": 46 },
-    { "description": "Tap Event Check claim status", "time": 51 },
-    { "description": "Web Callback undefined-undefined", "time": 52 },
-    { "description": "Back Button Used", "time": 53 },
-    { "description": "Tap Event Upgrade protection plan", "time": 53 },
-    { "description": "Back Button Used", "time": 54 },
-    { "description": "Tap Event Check upgrade eligibility", "time": 116 },
-    { "description": "Tap Event ReactViewGroup", "time": 117 },
-    { "description": "Rage Scroll", "time": 131 },
-    { "description": "Tap Event Done", "time": 132 },
-    { "description": "App Suspend", "time": 132 },
-    { "description": "Tap Event See upgrade options", "time": 118 },
-    { "description": "ANF - Flow Code DSUP", "time": 118 },
-    { "description": "ANF - Virtual Page URL /buy/postpaid/upgradeoptions/modal", "time": 118 },
-    { "description": "Modal Displayed How do you want to upgrade your device?", "time": 119 },
-    { "description": "Tap Event Start upgrade", "time": 120 },
-    { "description": "Page Content Loaded https://www.att.com/buy/postpaid/phones/", "time": 121 },
-    { "description": "A-WLS-AL/U-Pick New Device View", "time": 121 },
-    { "description": "Tap Event Price with trade-in", "time": 133 },
-    { "description": "Tap Event Galaxy S25 Ultra", "time": 133 },
-    { "description": "A-WLS-ALL-Pick New Device Click Galaxy S25 Ultra", "time": 133 },
-    { "description": "Product Details Page - View samsung galaxy s25 ultra", "time": 134 },
-    { "description": "Page Content Loaded https://www.att.com/buy/postpaid/phones/samsung-galaxy-s25-ultra.html", "time": 134 },
-    { "description": "Tap Event IMG[150x643]", "time": 139 },
-    { "description": "Tap Event IMG[206x640]", "time": 140 },
-    { "description": "Tap Event IMG[288x654]", "time": 141 },
-    { "description": "Tap Event IMG[343x647]", "time": 142 },
-    { "description": "Tap Event Save when you buy any eligible Samsung Galaxy smartphone on installment and unlimited plan. No trade", "time": 175 },
-    { "description": "Possible Frustration Save when you buy any eligible Samsung Galaxy smartphone on installment and unlimited plan. No trade", "time": 176 },
-    { "description": "Rage Click URL https://www.att.com/buy/postpaid/phones/samsung-galaxy-s25-ultra.html", "time": 177 },
-    { "description": "Rage Click Save when you buy any eligible Samsung Galaxy smartphone on installment and unlimited plan. No trade", "time": 177 },
-    { "description": "Tap Event INPUT[jsx-2202735406]", "time": 232 },
-    { "description": "Product Details Page - View samsung galaxy s25 ultra 256gb titanium gray", "time": 232 },
-    { "description": "Tap Event BUTTON[uws-modal__close]", "time": 184 },
-    { "description": "Tap Event See how trade-in works", "time": 185 },
-    { "description": "Modal Displayed How to get trade-in credits", "time": 185 },
-    { "description": "Tap Event No, thanks", "time": 186 },
-    { "description": "Tap Event Upgrade", "time": 196 },
-    { "description": "A-WLS-AL/U-Continue Add to Cart CTA Click", "time": 196 },
-    { "description": "Page Content Loaded https://www.att.com/buy/postpaid/phones/config/samsung-galaxy-s25-ultra-256gb-titanium-gray.html", "time": 218 },
-    { "description": "A-WLS-AL/U-Addons Config View", "time": 218 },
-    { "description": "Tap Event Go to cart", "time": 224 },
-    { "description": "A-WLS-AL/U-Config View Go to Cart Click", "time": 224 },
-    { "description": "Page Content Loaded https://www.att.com/buy/postpaid/additionaloffers", "time": 225 },
-    { "description": "A-WLS-U-Upsell Offer Page View", "time": 225 },
-    { "description": "Tap Event Skip and continue", "time": 226 },
-    { "description": "Page Content Loaded https://www.att.com/buy/shoppingcart/", "time": 253 },
-    { "description": "A-Sales-Cart-Product Name Galaxy S25 Ultra", "time": 253 },
-    { "description": "Tap Event Got a promo code?", "time": 263 },
-    { "description": "Page Content Loaded https://www.att.com/buy/checkout/checkoutview", "time": 264 },
-    { "description": "Checkout Visited", "time": 264 },
-    { "description": "Tap Event A[Link__link-cta]", "time": 268 },
-    { "description": "ANF - Virtual Page URL /buy/checkout/storelist/modal", "time": 268 },
-    { "description": "Checkout - Find Store Modal Displayed", "time": 268 },
-    { "description": "Uncaught Exception URL https://www.att.com/buy/checkout/deliveryinfo", "time": 270 },
-    { "description": "Uncaught Exception Script error.", "time": 270 },
-    { "description": "API 500 Error https://www.att.com/idpcms/sales/prod/buy/common-ui.cmsfeed.js", "time": 270 },
-    { "description": "Tap Event Pick up at this store", "time": 281 },
-    { "description": "Tap Event Update delivery info", "time": 281 },
-    { "description": "A-Sales-Checkout-Add Delivery Info Click In-store pickup", "time": 281 },
-    { "description": "ANF - Virtual Page URL /buy/checkout/payment", "time": 282 },
-    { "description": "A-Sales-PurchaseOrder-Payment Page Hit", "time": 293 }
-]
-      },
-      {
-        "id": "session-2",
-        "startTime": "2025-07-01T10:00:00.000Z",
-        "endTime": "2025-07-01T10:05:00.000Z",
-        "score": 9,
-        "video": "https://storage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-        "analysis": {},
-        "user_journey": [
-          { "description": "Two characters, Proog and Emo, are in a vast, strange machine.", "time": 12 },
-          { "description": "Proog presents Emo with a variety of contraptions.", "time": 25 },
-          { "description": "The machine begins to come alive, creating chaos.", "time": 45 },
-          { "description": "Proog gets trapped by telephone wires.", "time": 61 }
-        ]
-      }
+        },
+        {
+            "id": "session-2",
+            "startTime": "2025-07-01T10:00:00.000Z",
+            "endTime": "2025-07-01T10:05:00.000Z",
+            "score": 9,
+            "category": "iPhone 16 Pro Max",
+            "video": "https://storage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+            "analysis": {},
+            "user_journey": [
+                {
+                    "description": "Two characters, Proog and Emo, are in a vast, strange machine.",
+                    "time": 12
+                },
+                {
+                    "description": "Proog presents Emo with a variety of contraptions.",
+                    "time": 25
+                },
+                {
+                    "description": "The machine begins to come alive, creating chaos.",
+                    "time": 45
+                },
+                {
+                    "description": "Proog gets trapped by telephone wires.",
+                    "time": 61
+                }
+            ]
+        },
+        {
+            "id": "session-2",
+            "startTime": "2025-07-01T10:00:00.000Z",
+            "endTime": "2025-07-01T10:05:00.000Z",
+            "score": 9,
+            "category": "iPhone 16 Pro",
+            "video": "https://storage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+            "analysis": {},
+            "user_journey": [
+                {
+                    "description": "Two characters, Proog and Emo, are in a vast, strange machine.",
+                    "time": 12
+                },
+                {
+                    "description": "Proog presents Emo with a variety of contraptions.",
+                    "time": 25
+                },
+                {
+                    "description": "The machine begins to come alive, creating chaos.",
+                    "time": 45
+                },
+                {
+                    "description": "Proog gets trapped by telephone wires.",
+                    "time": 61
+                }
+            ]
+        },
+        {
+            "id": "session-3",
+            "startTime": "2025-07-01T10:00:00.000Z",
+            "endTime": "2025-07-01T10:05:00.000Z",
+            "score": 9,
+            "category": "iPhone 16 Pro",
+            "video": "https://storage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+            "analysis": {},
+            "user_journey": [
+                {
+                    "description": "Two characters, Proog and Emo, are in a vast, strange machine.",
+                    "time": 12
+                },
+                {
+                    "description": "Proog presents Emo with a variety of contraptions.",
+                    "time": 25
+                },
+                {
+                    "description": "The machine begins to come alive, creating chaos.",
+                    "time": 45
+                },
+                {
+                    "description": "Proog gets trapped by telephone wires.",
+                    "time": 61
+                }
+            ]
+        },
+        {
+            "id": "session-3",
+            "startTime": "2025-07-01T10:00:00.000Z",
+            "endTime": "2025-07-01T10:05:00.000Z",
+            "score": 9,
+            "category": "iPhone 16 Pro",
+            "video": "https://storage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+            "analysis": {},
+            "user_journey": [
+                {
+                    "description": "Two characters, Proog and Emo, are in a vast, strange machine.",
+                    "time": 12
+                },
+                {
+                    "description": "Proog presents Emo with a variety of contraptions.",
+                    "time": 25
+                },
+                {
+                    "description": "The machine begins to come alive, creating chaos.",
+                    "time": 45
+                },
+                {
+                    "description": "Proog gets trapped by telephone wires.",
+                    "time": 61
+                }
+            ]
+        }
     ]
-  }
+}

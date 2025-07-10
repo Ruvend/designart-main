@@ -95,7 +95,7 @@ function Home() {
           </div>
 
           {/* --- [2] COLLAPSIBLE LISTS SECTION REMAINS THE SAME --- */}
-          <div className="max-w-4xl mx-auto w-full pb-16">
+          <div className="max-w-7xl mx-auto w-full pb-16">
             <h2 className="text-xl font-semibold mb-4 text-center">
               {t('home:continueSession', 'Continue where you left off')}
             </h2>

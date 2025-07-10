@@ -70,7 +70,7 @@ const SessionCard: React.FC<SessionCardProps> = ({
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="w-[320px] border rounded-lg p-4 flex flex-col gap-3 hover:border-primary/40 transition-all duration-300 relative group bg-card text-card-foreground"
+      className=" border rounded-lg p-4 flex flex-col gap-3 hover:border-primary/40 transition-all duration-300 relative group bg-card text-card-foreground"
     >
       {/* ... (Top section is unchanged) ... */}
       <div className="flex justify-between items-center">

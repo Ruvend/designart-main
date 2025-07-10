@@ -1,44 +1,48 @@
-import SessionCard from '@/components/home/SessionCard'
 import { useNavigate } from '@tanstack/react-router'
-import { motion } from 'motion/react'
 import { useTranslation } from 'react-i18next'
 import sessionsData from '@/data/sessions.json'
+import { useMemo } from 'react'
+import CategoryCard from './CategoryCard' // --- [1] IMPORT THE NEW CategoryCard ---
+
+// Define Session and grouped types
+type Session = { id: string; category: string; [key: string]: any }
 
 const SessionList: React.FC = () => {
   const { t } = useTranslation()
   const navigate = useNavigate()
-  const sessions = sessionsData.sessions
 
-  const handleSessionClick = (id: string) => {
+  // Group sessions by category (this logic remains the same)
+  const groupedSessions = useMemo(() => {
+    return sessionsData.sessions.reduce((acc, session) => {
+      const category = session.category || 'Uncategorized';
+      if (!acc[category]) {
+        acc[category] = [];
+      }
+      acc[category].push(session as Session);
+      return acc;
+    }, {} as Record<string, Session[]>);
+  }, []);
+
+  // --- [2] CREATE THE NAVIGATION HANDLER FOR CATEGORIES ---
+  const handleCategoryClick = (category: string, firstSessionId: string) => {
     navigate({
       to: '/session/$id',
-      params: { id },
+      params: { id: firstSessionId },
+      search: { category }, // Pass the category so the dropdown works
     })
   }
 
   return (
-    // --- [1] REMOVED PADDING/WIDTH and USE FLEXBOX ---
-    <div className="flex flex-col gap-4 select-none">
-      {sessions && sessions.length > 0 && (
-        <motion.span
-          className="text-xl font-bold" // Adjusted font size slightly
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-        >
-          {t('All Sessions')}
-        </motion.span>
-      )}
-
-      {/* --- [2] CHANGED FROM GRID TO FLEX WRAP --- */}
-      <div className="flex flex-wrap gap-4 w-full">
-        {sessions?.map((session, index) => (
-          <SessionCard
-            key={session.id}
+    <div className="flex flex-col gap-4 select-none max-w-[1200px] mx-auto">
+      {/* --- [3] RENDER CATEGORY CARDS IN A GRID --- */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full pb-10">
+        {Object.entries(groupedSessions).map(([category, sessions], index) => (
+          <CategoryCard
+            key={category}
             index={index}
-            session={session}
-            handleSessionClick={handleSessionClick}
-            handleDeleteSession={() => console.log('Delete not implemented')}
+            categoryName={category}
+            sessions={sessions}
+            handleCategoryClick={handleCategoryClick}
           />
         ))}
       </div>
